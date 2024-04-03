@@ -5,9 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Books</title>
     <link rel="stylesheet" href="reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1> Alura book</h1>
-</body>
+    <body>
+        <header class="cabecalho">
+           <div class="container">
+                <input type="checkbox" id="menu" class="container_botao">
+                <label for="menu">
+                    <span class="cabecalho_menu-hamburguer container_imagem"></span>
+                </label>
+                <ul class="lista_menu">
+                    <li class="lista_menu-titulo">Categorias</li>
+                    <li class="lista_menu-itens">
+                        <a href="#" class="lista_menu-link">Programação</a>
+                    </li>
+
+                    <li class="lista_menu-itens">
+                        <a href="#" class="lista_menu-link">Front-end</a>
+                    </li>
+
+                    <li class="lista_menu-itens">
+                        <a href="#" class="lista_menu-link">Infraestrutura</a>
+                    </li>
+
+                    <li class="lista_menu-itens">
+                        <a href="#" class="lista_menu-link">business</a>
+                    </li>
+
+                    <li class="lista_menu-itens">
+                        <a href="#" class="lista_menu-link">design & ux</a>
+                    </li>
+                </ul>
+
+                <img src="./img/Logo.svg" class="container_imagem">
+           </div>
+
+           <div class="container">
+                <a href="#"><img src="./img/Favoritos.svg" class="container_imagem"></a>
+                <a href="#"><img src="img/Sacola.png" class="container_imagem"></a>
+                <a href="#"><img src="img/Usuario.png" class="container_imagem"></a>
+            </div>
+        </header>
+
+        <section class="banner">
+            <h2 class="banner_titulo"> Já sabe por onde começar?</h2>
+            <p class="banner_texto">Encontre em nossa estante o que precisa para o seu desenvolvimento</p>
+            <input type="search" class="banner_pesquisa" placeholder="Qual será sua próxima leitura?">
+        </section>
+    </body>
 </html>
