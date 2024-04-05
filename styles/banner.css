@@ -48,3 +48,16 @@
    
     color: var(--branco);
 }*/
+
+@media screen and (min-width: 1024px) {
+    .banner_titulo {
+        font-size: 36px;
+    }
+    .banner_pesquisa {
+        width: 50%;
+    }
+    .banner_pesquisa::placeholder{
+        background-position: 6em;
+    }
+    
+}
