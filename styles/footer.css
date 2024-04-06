@@ -1,9 +1,45 @@
 hr {
     margin: 0;
 }
-.rodapé_titulo {
+.rodapé {
     background-color: var(--branco);
+}
+.rodapé_titulo {
+  
     font-weight: 400;
     color: black;
     padding:1em;
+}
+.rodapé_lista {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodapé {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2em;
+    }
+    .rodapé_lista {
+        display: block;
+    }
+
+    .rodapé_titulo {
+        font-size: 24px;
+    }
+    .rodapé_lista-titulo {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #858585;
+    }
+    .rodapé_lista-item {
+        display: flex;
+        align-items: center;
+        margin: 0.6em 0;
+    }
+    .rodapé_lista-link {
+        text-decoration: none;
+        color:  #474646;
+        margin-left: 0.6em;
+    }
 }
