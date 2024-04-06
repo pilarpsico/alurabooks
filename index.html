@@ -74,19 +74,32 @@
                     <li class="lista_menu-itens">
                         <a href="#" class="lista_menu-link">design & ux</a>
                     </li>
-                </ul>
+            </ul>
 
-
-                <li class="opções_item"> <a href="#" class="opções_link">Favoritos</a></li>
-                <li class="opções_item"> <a href="#" class="opções_link">Minha Estante</a></li>
+            
+                <li class="opções_item"> 
+                    <a href="#" class="opções_link">Favoritos</a>
+                </li>
+                <li class="opções_item"> 
+                    <a href="#" class="opções_link">Minha Estante</a>
+                </li>
 
            </ul>
 
 
            <div class="container">
-                <a href="#"><img src="./img/Favoritos.svg" class="container_imagem container_imagem-displaynone"></a>
-                <a href="#"><img src="img/Sacola.png" class="container_imagem"></a>
-                <a href="#"><img src="img/Usuario.png" class="container_imagem"></a>
+                <a href="#"><!--no tablet favoritos esta escrito então coloca classe nesse primeiro item e poe display none-->
+                    <img src="./img/Favoritos.svg" class="container_imagem container_imagem-displaynone"></a>
+
+                <a href="#" class="container_link">
+                    <img src="img/Sacola.png" class="container_imagem">
+       <!--desktop--><p class="container_texto">Minha sacola</p>
+                </a>
+
+                <a href="#" class="container_link">
+                    <img src="img/Usuario.png" class="container_imagem">
+    <!--desktop--><p class="container_texto">Meu Perfil</p>
+                </a>
             </div>
         </header>
 
@@ -98,7 +111,7 @@
 
         <section class="carrossel">
             <h2 class="carrossel_titulo">Últimos Lançamentos</h2>
-
+        <div class="carrossel_container">
             <!-- Slider main container -->
             <div class="swiper">
                   <!-- If we need pagination -->
@@ -145,32 +158,33 @@
                     <a href="#" class="botoes_ancora">Saiba Mais</a>
                 </div>
             </div>
+        </div>
         </section>
 
 
 
         <section class="carrossel_dois">
             <h2 class="carrossel_titulo-dois">Mais Vendidos</h2>
-
+            <div class="carrossel_container">
             <!-- Slider main container -->
-            <div class="swiper">
-                 <!-- If we need pagination -->
-                 <div class="swiper-pagination"></div>
-            
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><img src="img/Javascript.svg" alt="livro de javascript"></div>
-                <div class="swiper-slide"><img src="img/Nodejs.svg" alt="livro de node.js"></div>
-                <div class="swiper-slide"><img src="img/Portugol.svg" alt="livro de portugol"></div>
-                <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="livro de front-end"></div>
+                <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/Javascript.svg" alt="livro de javascript"></div>
+                    <div class="swiper-slide"><img src="img/Nodejs.svg" alt="livro de node.js"></div>
+                    <div class="swiper-slide"><img src="img/Portugol.svg" alt="livro de portugol"></div>
+                    <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="livro de front-end"></div>
+                    </div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                            
                 </div>
-               
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-                        
-            </div>
 
 
 
@@ -198,7 +212,7 @@
                     <a href="#" class="botoes_ancora">Saiba Mais</a>
                 </div>
             </div>
-
+        </div>
 
         </section>
         

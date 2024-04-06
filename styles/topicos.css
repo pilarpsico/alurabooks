@@ -37,3 +37,12 @@
   }
   
 }
+
+@media screen and (min-width: 1024px) {
+      .tópicos {
+        padding: 1em 30vw;
+        padding-bottom: 3em;
+      }
+    
+  }
+}
